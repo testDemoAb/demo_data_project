@@ -2,4 +2,4 @@ import numpy as np
 
 # AndreKev Contribution
 def add_on_input():
-  return sum([int(input()) for i in range(2)])
+  return sum([int(input()) for i in range(2)])    # Add two integers
