@@ -1,8 +1,12 @@
 import numpy as np
 
+# The main function
+def main():
+  a = 1
+  b= 2
+  c= a+b
+  d = c + a
 
-a = 1
-b= 2
-c= a+b
-
-d = c + a
+# Environment variable __name__ used to check if the current module is the main running module
+if __name__ == "__main__":
+  main()    # Running the main function
